@@ -8,7 +8,7 @@
     </div>
     <div class="row section-gap">
         <div class="col-12">
-            <h4 class="title">Test Case</h4>
+            <h4 class="title">Test Cases</h4>
         </div>
     </div>
     <div class="row mb-4">
@@ -17,7 +17,7 @@
                 <div class="filter-button d-flex justify-content-between align-items-center">
                     <div class="wrapper d-flex align-items-center gap-2">
                         <div class="filter-icon"></div>
-                        <p>Searching</p>
+                        <p>Search</p>
                         <?php if ($_GET['url'] == 'testcase/filterTestCase') : ?>
                             | <p class="filter-searching"><?= $data['filterName']; ?></p>
                         <?php endif; ?>
