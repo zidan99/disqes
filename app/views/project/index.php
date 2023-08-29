@@ -38,8 +38,12 @@
                     </div>
                     <div class="project-body d-flex justify-content-between align-items-center">
                         <div class="wrapper d-flex align-items-center gap-4">
-                            <a href="<?= BASEURL; ?>testcase/project/<?= $project['id']; ?>" class="testcase-group">
+                            <!-- <a href="<?= BASEURL; ?>testcase/project/<?= $project['id']; ?>" class="testcase-group">
                                 <div class="testcase-icon"></div>
+                                <p class="badge-count"><?= $project['test_case_count']; ?></p>
+                            </a> -->
+                            <a href="<?= BASEURL; ?>testcase/project/<?= $project['id']; ?>" class="testcase-group">
+                                <div class="testsuite-icon"></div>
                                 <p class="badge-count"><?= $project['test_case_count']; ?></p>
                             </a>
                             <!-- <a href="<?= BASEURL; ?>testcase" class="testsuite-group">
