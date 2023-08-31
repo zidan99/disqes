@@ -8,7 +8,7 @@
     </div>
     <div class="row section-gap">
         <div class="col-12">
-            <h4 class="title">Dashboard Project <?= $data['projects']['name']; ?></h4>
+            <h4 class="title">Project <?= $data['projects']['name']; ?> ﹥ Dashboard</h4>
         </div>
     </div>
     <div class="row">
