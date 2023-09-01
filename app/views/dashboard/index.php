@@ -50,9 +50,6 @@
                 <div class="wrapper">
                     <h6 class="menu-title">Priority Not Set</h6>
                     <h5 class="menu-value"><?= $data['countNotSet']['total_test_case_not_set']; ?></h5>
-
-                    <!-- read priority not set untuk dashboard page global (belum bekerja, perlu dibenerin-->
-                    <!-- <h5 class="menu-value"><?= $data['totalTestCasesNotSets']['total_test_cases_not_sets']; ?></h5> -->
                 </div>
                 <div class="menu-icon d-flex justify-content-center align-items-center">
                     <div class="not-set-icon"></div>

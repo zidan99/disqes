@@ -27,7 +27,7 @@
             <div class="card-menu d-flex justify-content-between">
                 <div class="wrapper">
                     <h6 class="menu-title">Test Suites</h6>
-                    <h5 class="menu-value"><?= $data['countTestSuite']['total_test_suite']; ?></h5>
+                    <h5 class="menu-value"><?= $data['totalTestSuites']['total_test_suites']; ?></h5>
                 </div>
                 <div class="menu-icon d-flex justify-content-center align-items-center">
                     <div class="project-icon"></div>
@@ -38,7 +38,7 @@
             <div class="card-menu d-flex justify-content-between">
                 <div class="wrapper">
                     <h6 class="menu-title">Test Cases</h6>
-                    <h5 class="menu-value"><?= $data['countTestCase']['total_test_case'] ?></h5>
+                    <h5 class="menu-value"><?= $data['totalTestCases']['total_test_cases']; ?></h5>
                 </div>
                 <div class="menu-icon d-flex justify-content-center align-items-center">
                     <div class="test-case-icon"></div>
